@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+	body{
+		margin: 10px auto 0px auto;
+		width: 900px;
+		height: 100%;
+	}
+	header{
+		background-color: blue;
+		color: white;
+		height: 70px;
+		box-shadow: 4px 4px 4px gray;
+	}	
+	header h2{
+		padding: 20px 0px 0px 720px;	
+	}
+	article#tema{
+		position: relative;
+		margin: 2px;
+	}	
+	#tema h2{
+		font-family: serif arial;
+		font-weight: bold;
+		color: orange;
+		text-shadow: 1px 2px 2px green;
+	}	
+	article#tema p{
+		position: absolute;
+		left: 660px;
+		width: 220px;
+		top: 25px;
+		font-family: serif arial;
+		font-size: 18px;
+	}
+	
+	article#corpo{
+		position: relative;
+		margin-top: 10px;
+		border-color: green;
+		border-style: solid;
+		border-color: green;
+		border-radius: 30px; 
+		
+		
+	}
+	#corpo h3{
+		font-family: serif arial;
+		font-weight: bold;
+		color: green;
+		padding: 10px;
+		
+	}
+	#corpo p{
+		font-family: serif arial;
+		font-size: 18px;
+		width: 860px;
+		padding: 10px;
+	}	
+	#corpo .txtcoluna{
+		column-count: 2;
+	}
+	#figmeio{
+		padding: 10px;
+		
+	}	
